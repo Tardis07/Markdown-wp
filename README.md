@@ -11,7 +11,7 @@ Preview
 How to Use  
 ======
 1.将 marked.js，makemarked.js 拷贝到 ~\wp-content\{你的主题目录}\js\ 目录下  
-2.在 function.js 中加入以下代码  
+2.在 function.php 中加入以下代码  
 <code>// 增加 markdown 功能到后台编辑器
 add_action( 'admin_menu', 'create_markdown' );
 add_action( 'save_post', 'save_markdown', 10, 2 );
